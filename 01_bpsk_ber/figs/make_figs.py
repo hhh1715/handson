@@ -32,7 +32,7 @@ plt.rcParams.update({
 
 
 def sigma_of(ebn0_db: float) -> float:
-    """Eb = 1 時的雜訊標準差，對應 HACKMD.md 式 (5)。"""
+    """Eb = 1 時的雜訊標準差，對應 HACKMD.md 式 (4)。"""
     return np.sqrt(1 / (2 * 10 ** (ebn0_db / 10)))
 
 

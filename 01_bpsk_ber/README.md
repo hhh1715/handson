@@ -5,4 +5,5 @@
 ```bash
 uv run check.py          # 執行完整版，畫出 ber.png
 uv run check.py --todo   # 檢查自己在 exercise/ber_todo.py 寫的版本
+uv run figs/make_figs.py # 重新產生 HACKMD.md 的圖 1 至圖 3
 ```
